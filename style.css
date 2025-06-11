@@ -87,6 +87,10 @@
     
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 
 
 
@@ -104,14 +108,7 @@
 }
 
 
-.d-flex-2{
-  display:flex;
-  justify-content: center;
-  flex-direction:row-reverse;
-  gap: 5px;
-  margin-bottom:25px;
-  margin-top:25px;
-}
+
 
 
 /*-- end container--*/
