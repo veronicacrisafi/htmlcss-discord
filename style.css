@@ -74,13 +74,14 @@
 
 
 
-.d-flex-1{
-  display:flex;
-  justify-content: center;
-  gap: 5px;
-  margin-bottom:25px;
-  margin-top:25px;
+.container {
+ max-width: 800px;
+ margin:0 auto;
  
+}
+
+.d-flex{
+    display:flex;
 }
 
 
