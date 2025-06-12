@@ -34,7 +34,7 @@
 
 /*-- #region banner and text banner*/
 .banner-image-top{
-   background-color: burlywood;
+   background-color:mediumaquamarine;
    height:450px;
    display: flex;
    justify-content: center;
@@ -49,7 +49,7 @@
 /*-- #endregion banner and text banner*/
 
 
-
+/*--region section frog-magician-alien-bunny--*/
 
 .container {
  max-width: 800px;
@@ -84,7 +84,24 @@
   height: 250px;
 }
 
+#bunny{
+    background-color:mediumaquamarine;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
 
+.container-bg{
+   height: 450px;
+   width: 800px;
+   background-color: orange;
+}
+
+
+
+/*--#endregion section frog-magician-alien-bunny--*/
 
 
 
