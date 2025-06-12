@@ -15,7 +15,7 @@
 /*--container header--*/
 .header-style{
    background-color: aqua;
-   padding:1px;
+   
 }
 
 
@@ -24,21 +24,21 @@
 .rectangle-d-flex{
    display:flex;
    justify-content: space-between;
-   background-color: orange;
-   margin:25px 100px;
-   border-style:dotted;
-  
-  
 }
 
 
-.rectangle{
+.rectangle-1{
    background-color: orange;
-   width:100px;
+   width:25%;
    height:50px;
    border-style:dotted;
+}
 
-
+.rectangle-2{
+    background-color: orange;
+   width:50%;
+   height:50px;
+   border-style:dotted;
 }
 
 
