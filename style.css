@@ -13,33 +13,25 @@
 
 
 /*--container header--*/
-.header-style{
+#header-style
+{
    background-color: aqua;
-   
-}
+   height:60px;
+   padding:15px 0;
 
-
-
-
-.rectangle-d-flex{
-   display:flex;
-   justify-content: space-between;
-}
-
-
-.rectangle-1{
-   background-color: orange;
-   width:25%;
-   height:50px;
-   border-style:dotted;
-}
-
-.rectangle-2{
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
     background-color: orange;
-   width:50%;
-   height:50px;
-   border-style:dotted;
+    align-items: center;
 }
+
+}
+
+
+
+   
 
 
 
