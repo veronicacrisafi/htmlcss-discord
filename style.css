@@ -12,7 +12,7 @@
 }
 
 
-/*--container header--*/
+/*--#region header--*/
 #header-style
 {
    background-color: aqua;
@@ -28,40 +28,25 @@
 }
 
 }
+/*--#endregion header--*/
 
 
 
-   
-
-
-
-
-/*-- banner e testo banner*/
-.immagine-sfondo{
+/*-- #region banner and text banner*/
+.banner-image-top{
    background-color: burlywood;
-}
-
-
-.banner-rectangle{
+   height:450px;
    display: flex;
    justify-content: center;
-  
+   align-items: center;
 }
 
-
-.testo-rectangle{
-   width: 100px;
-   height:250px;
+.container-small{
+   height: 300px;
    width: 400px;
-   margin-top: 25px;
-   margin-bottom: 25px;
    background-color: orange;
-  
-  
-}
-
-
-/*-- container immagini e testo--*/
+  }
+/*-- #endregion banner and text banner*/
 
 
 
