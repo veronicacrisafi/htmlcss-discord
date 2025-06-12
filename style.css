@@ -93,10 +93,45 @@
    width: 800px;
    background-color: orange;
 }
-
-
-
 /*--#endregion section frog-magician-alien-bunny--*/
+#bonus{
+    background-color: chartreuse;
+}
+
+.container-bonus{
+    max-width: 800px;
+    margin:0 auto;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: darkgray;
+}
+.b-flex{
+    display:flex;
+    padding-right:15px;
+    padding-left:15px;
+    
+}
+
+.stretch-1{
+ background-color: pink;
+ width: 40%;
+ height: 500px; 
+ border-style: dotted;
+}
+
+.stretch-2{
+    background-color: blueviolet;
+    width: 15%;
+    height: 500px;
+    border-style: dotted;
+
+}
+/*--#region footer--/
+
+
+/*--#endregion footer--/
+
+
 
 
 
