@@ -56,27 +56,22 @@
  margin:0 auto;
  padding-top:15px;
  padding-bottom:15px;
- 
+ gap:10px;
 }
 
 .d-flex{
     display:flex;
-    
 }
 
 .row-reverse{
     flex-direction: row-reverse;
 }
 
-
-
-
 .square-1{
   background-color: blue;
   width: 60%;
   height: 250px;
 }
-
 
 .square-2{
   background-color: pink;
