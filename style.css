@@ -8,7 +8,7 @@
 /*--#region header--*/
 #header-style
 {
-   background-color:#3161e0;
+   background-color:#265ee8;
    height:70px;
    padding:15px 0;
 
@@ -51,18 +51,20 @@
 /*#endcontainer */
 
 /*-- #region banner and text banner*/
-.banner-image-top{
+.banner{
    background-color:mediumaquamarine;
-   height:450px;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-image: url(./img/jumbo.png); 
+   max-width: 100%;
+   height:500px;
+
 
 .container-small{
    height: 300px;
    width: 550px;
    text-align: center;
-   background-color: orange;
    color:white;
   }
 
