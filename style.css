@@ -5,32 +5,50 @@
    box-sizing: border-box;
 }
 
-
-.debug{
-   max-width: 1680px;
-      
-}
-
-
 /*--#region header--*/
 #header-style
 {
-   background-color: aqua;
-   height:60px;
+   background-color:#3161e0;
+   height:70px;
    padding:15px 0;
 
 .nav-flex{
     display: flex;
     justify-content: space-between;
-    height: 60%;
-    background-color: orange;
+    height: 80%;
     align-items: center;
 }
 
+
+.strumenti{
+    margin-right:40px;
+    margin-left:40px;
+    color:white;
 }
+
+.accedi{
+    height:30px;
+    width:60px;
+    border-radius: 15px;
+    border-style:none;
+    background-color: white;
+
+}
+
+}
+
+
 /*--#endregion header--*/
 
-
+/* container */
+.container {
+ max-width: 1200px;
+ margin:0 auto;
+ padding-top:15px;
+ padding-bottom:15px;
+ gap:10px;
+}
+/*#endcontainer */
 
 /*-- #region banner and text banner*/
 .banner-image-top{
@@ -51,13 +69,7 @@
 
 /*--region section frog-magician-alien-bunny--*/
 
-.container {
- max-width: 800px;
- margin:0 auto;
- padding-top:15px;
- padding-bottom:15px;
- gap:10px;
-}
+
 
 .d-flex{
     display:flex;
