@@ -50,13 +50,7 @@
 
 }
 
-
-
-
-
-
 /*--#endregion header--*/
-
 
 
 /*-- #region banner and text banner*/
@@ -133,14 +127,27 @@
     height: 445px;
 }
 
+#frog {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
 #magician {
     background-color: #f6f6f6;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+#alien {
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 #bunny {
     background-color: #f6f6f6;
     height: 1200px;
     padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -203,8 +210,6 @@
 
 }
 
-
-
 .stretch-2 {
 
     width: 30%;
@@ -232,5 +237,10 @@
     font-size: 23px;
 }
 
+.onde {
+    width: 100%;
+    background-color: #f6f6f6;
+
+}
 
 /*--section bonus--*/
