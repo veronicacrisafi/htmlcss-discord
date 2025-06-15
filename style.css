@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 .header-color {
     background-color: #265ee8;
 }
@@ -42,14 +44,7 @@
 
 
 
-.container,
-.containerd-flex {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    gap: 10px;
-}
+
 
 /*--#endregion header--*/
 
@@ -103,7 +98,14 @@
 
 /*--region section frog-magician-alien-bunny--*/
 
-
+.container,
+.containerd-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 200px;
+}
 
 .d-flex {
     display: flex;
@@ -117,30 +119,48 @@
 .square-1 {
     background-color: blue;
     width: 60%;
-    height: 430px;
+    height: 445px;
 
 }
 
 .square-2 {
     background-color: pink;
-    width: 15%;
-    height: 300px;
-    text-align: center;
+    width: 80%;
+    height: 445px;
+}
 
+#magician {
+    background-color: #f6f6f6;
 }
 
 #bunny {
-    background-color: mediumaquamarine;
-    height: 500px;
+    background-color: #f6f6f6;
+    height: 1200px;
     padding-top: 50px;
 
 }
 
 .container-bg {
-    height: 400px;
-    width: 800px;
-    background-color: orange;
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+#scarica-2 {
+    border-style: none;
+    height: 60px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 23px;
+}
+
 
 /*--#endregion section frog-magician-alien-bunny--*/
 
