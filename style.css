@@ -111,8 +111,6 @@
 .containerd-flex {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
     gap: 200px;
 }
 
@@ -126,14 +124,11 @@
 }
 
 .square-1 {
-    background-color: blue;
     width: 60%;
     height: 445px;
-
 }
 
 .square-2 {
-    background-color: pink;
     width: 80%;
     height: 445px;
 }
@@ -177,17 +172,18 @@
 /*--section bonus--*/
 
 #bonus {
-    background-color: chartreuse;
+    background-color: #23272a;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .container-bonus {
-    background-color: darkgray;
+    background-color: #23272a;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 
 .b-flex {
@@ -195,39 +191,46 @@
     padding-right: 15px;
     padding-left: 15px;
 
+
 }
 
 .stretch-1 {
-    background-color: pink;
+
     width: 50%;
     height: 500px;
-    border-style: dotted;
+    padding-right: 30px;
+
+
 }
 
 
 
 .stretch-2 {
-    background-color: blueviolet;
+
     width: 30%;
-    height: 500px;
-    border-style: dotted;
-
-
-}
-
-#end-style {
-
-    height: 60px;
-    padding: 15px 0;
-
-    .nav-flex {
-        display: flex;
-        justify-content: space-between;
-        height: 60%;
-        background-color: orange;
-        align-items: center;
-    }
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 
 }
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registrati {
+    border-style: none;
+    height: 45px;
+    width: 125px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 23px;
+}
+
 
 /*--section bonus--*/
