@@ -34,8 +34,9 @@ body {
 }
 
 .link {
-    margin-right: 40px;
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     color: white;
     font-size: 20px;
 }
@@ -222,7 +223,7 @@ body {
 
 }
 
-.nav-flex {
+.bonus-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -240,8 +241,11 @@ body {
 }
 
 .onde {
+
+
     width: 100%;
-    background-color: #f6f6f6;
+
+
 
 }
 
