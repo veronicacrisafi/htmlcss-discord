@@ -5,24 +5,27 @@
    box-sizing: border-box;
 }
 
-/*--#region header--*/
-#header-style
-{
-   background-color:#265ee8;
-   height:70px;
-   padding:15px 0;
-
-.nav-flex{
-    display: flex;
-    justify-content: space-between;
-    height: 80%;
-    align-items: center;
+.header-color{
+    background-color: #265ee8;
 }
 
+.container {
+ max-width: 1200px;
+ margin:0 auto;
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+/*--#region header--*/
 
-.strumenti{
+.nav-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.link{
     margin-right:40px;
-    margin-left:40px;
     color:white;
 }
 
@@ -35,19 +38,22 @@
 
 }
 
+
+
+
+.container, .containerd-flex {
+ max-width: 1200px;
+ margin:0 auto;
+ padding-top:30px;
+ padding-bottom:30px;
+ gap:10px;
 }
 
 
 /*--#endregion header--*/
 
 /* container */
-.container {
- max-width: 1200px;
- margin:0 auto;
- padding-top:15px;
- padding-bottom:15px;
- gap:150px;
-}
+
 /*#endcontainer */
 
 /*-- #region banner and text banner*/
@@ -66,6 +72,7 @@
    width: 550px;
    text-align: center;
    color:white;
+   padding-top:50px
   }
 
 #scarica{
@@ -108,10 +115,10 @@
 }
 
 .square-1{
-    background-color: blue;
+  background-color: blue;
   width: 60%;
   height: 430px;
-  margin-top:65px;
+  
 }
 
 .square-2{
@@ -119,7 +126,7 @@
   width: 15%;
   height: 300px;
   text-align: center;
-  margin-top:100px;
+  
 }
 
 #bunny{
