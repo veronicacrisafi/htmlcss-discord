@@ -24,20 +24,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
 .link {
     margin-right: 40px;
+    margin-left: 40px;
     color: white;
+    font-size: 20px;
 }
 
 .accedi {
-    height: 30px;
-    width: 60px;
-    border-radius: 15px;
+    height: 45px;
+    width: 85px;
+    border-radius: 30px;
     border-style: none;
     background-color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 20px;
 
 }
 
@@ -175,6 +184,10 @@
 
 .container-bonus {
     background-color: darkgray;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .b-flex {
@@ -186,16 +199,19 @@
 
 .stretch-1 {
     background-color: pink;
-    width: 40%;
+    width: 50%;
     height: 500px;
     border-style: dotted;
 }
 
+
+
 .stretch-2 {
     background-color: blueviolet;
-    width: 15%;
+    width: 30%;
     height: 500px;
     border-style: dotted;
+
 
 }
 
