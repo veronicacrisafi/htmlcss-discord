@@ -1,39 +1,40 @@
 /*--azzerati margin,padding,box-sizing--*/
-*{
-   margin:0;
-   padding:0;
-   box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header-color{
+.header-color {
     background-color: #265ee8;
 }
 
 .container {
- max-width: 1200px;
- margin:0 auto;
- padding-top:30px;
- padding-bottom:30px;
- }
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /*--#region header--*/
 
-.nav-flex{
-    display:flex;
+.nav-flex {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.link{
-    margin-right:40px;
-    color:white;
+.link {
+    margin-right: 40px;
+    color: white;
 }
 
-.accedi{
-    height:30px;
-    width:60px;
+.accedi {
+    height: 30px;
+    width: 60px;
     border-radius: 15px;
-    border-style:none;
+    border-style: none;
     background-color: white;
 
 }
@@ -41,62 +42,61 @@
 
 
 
-.container, .containerd-flex {
- max-width: 1200px;
- margin:0 auto;
- padding-top:30px;
- padding-bottom:30px;
- gap:10px;
+.container,
+.containerd-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
 }
-
 
 /*--#endregion header--*/
 
-/* container */
 
-/*#endcontainer */
 
 /*-- #region banner and text banner*/
-.banner{
-   background-color:mediumaquamarine;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-image: url(./img/jumbo.png); 
-   max-width: 100%;
-   height:500px;
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/jumbo.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
 
 
-.container-small{
-   height: 300px;
-   width: 550px;
-   text-align: center;
-   color:white;
-   padding-top:50px
-  }
-
-#scarica{
-    border-style:none;
-    height: 40px;
-    width: 160px;
-    margin-right:20px;
-    margin-left:20px;
-    border-radius:20px;
-    background-color: white;
 }
-  
-#apri{
-    border-style:none;
-    height: 40px;
-    width: 200px;
+
+.container-small {
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    color: white;
+}
+
+#scarica {
+    border-style: none;
+    height: 60px;
+    width: 250px;
     margin-right: 20px;
-    margin-left:20px;
-    border-radius:20px;
-    background-color:#23272a;
-    color:white;
-}
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 23px;
 }
 
+#apri {
+    border-style: none;
+    height: 60px;
+    width: 330px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #23272a;
+    color: white;
+    font-size: 23px;
+}
 
 /*-- #endregion banner and text banner*/
 
@@ -105,71 +105,73 @@
 
 
 
-.d-flex{
-    display:flex;
-    
+.d-flex {
+    display: flex;
+
 }
 
-.row-reverse{
+.row-reverse {
     flex-direction: row-reverse;
 }
 
-.square-1{
-  background-color: blue;
-  width: 60%;
-  height: 430px;
-  
+.square-1 {
+    background-color: blue;
+    width: 60%;
+    height: 430px;
+
 }
 
-.square-2{
-  background-color: pink;
-  width: 15%;
-  height: 300px;
-  text-align: center;
-  
+.square-2 {
+    background-color: pink;
+    width: 15%;
+    height: 300px;
+    text-align: center;
+
 }
 
-#bunny{
-    background-color:mediumaquamarine;
-    height:500px;
-    padding-top:50px;
-   
+#bunny {
+    background-color: mediumaquamarine;
+    height: 500px;
+    padding-top: 50px;
+
 }
 
-.container-bg{
-   height: 400px;
-   width: 800px;
-   background-color: orange;
+.container-bg {
+    height: 400px;
+    width: 800px;
+    background-color: orange;
 }
+
 /*--#endregion section frog-magician-alien-bunny--*/
 
 
 /*--section bonus--*/
 
-#bonus{
+#bonus {
     background-color: chartreuse;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.container-bonus{
+.container-bonus {
     background-color: darkgray;
 }
-.b-flex{
-    display:flex;
-    padding-right:15px;
-    padding-left:15px;
-    
+
+.b-flex {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
-.stretch-1{
- background-color: pink;
- width: 40%;
- height: 500px; 
- border-style: dotted;
+.stretch-1 {
+    background-color: pink;
+    width: 40%;
+    height: 500px;
+    border-style: dotted;
 }
 
-.stretch-2{
+.stretch-2 {
     background-color: blueviolet;
     width: 15%;
     height: 500px;
@@ -177,26 +179,19 @@
 
 }
 
-#end-style
-{
-   
-   height:60px;
-   padding:15px 0;
+#end-style {
 
-.nav-flex{
-    display: flex;
-    justify-content: space-between;
-    height: 60%;
-    background-color: orange;
-    align-items: center;
-}
+    height: 60px;
+    padding: 15px 0;
+
+    .nav-flex {
+        display: flex;
+        justify-content: space-between;
+        height: 60%;
+        background-color: orange;
+        align-items: center;
+    }
 
 }
 
 /*--section bonus--*/
-
-
-
-
-
-
