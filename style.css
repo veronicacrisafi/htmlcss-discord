@@ -11,6 +11,7 @@ body {
 
 .header-color {
     background-color: #265ee8;
+    padding-top: 30px;
 }
 
 .container {
@@ -26,19 +27,28 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
 }
 
-.link {
+.logo {
+    height: 50px;
+}
+
+.links {
     display: flex;
-    justify-content: center;
     gap: 30px;
-    color: white;
     font-size: 20px;
+}
+
+.links a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: #b9c9ff;
 }
 
 .accedi {
@@ -74,6 +84,16 @@ body {
     width: 800px;
     text-align: center;
     color: white;
+}
+
+#place {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#description-banner {
+    font-size: 20px;
+    padding-bottom: 10px
 }
 
 #scarica {
@@ -130,6 +150,14 @@ body {
     height: 445px;
 }
 
+.section-title {
+    font-size: 50px;
+}
+
+.section-description {
+    font-size: 20px;
+}
+
 #frog {
     padding-top: 50px;
     padding-bottom: 50px
@@ -152,6 +180,10 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+#ready-start {
+    font-size: 30px;
 }
 
 .container-bg {
@@ -180,6 +212,15 @@ body {
 
 
 /*--section bonus--*/
+
+#footer-title {
+    font-size: 50px;
+    color: #687dc5
+}
+
+.first-world-column-footer {
+    color: #687dc5;
+}
 
 #bonus {
     background-color: #23272a;
@@ -238,6 +279,11 @@ body {
     background-color: #8ea1e1;
     color: white;
     font-size: 23px;
+}
+
+.bandiera-italiana {
+    width: 10%;
+    padding-top: 30px;
 }
 
 .onde {

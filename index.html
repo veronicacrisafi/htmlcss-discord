@@ -17,17 +17,17 @@
 
     <!--header-style-->
     <header class="header-color">
-        <div class="nav-flex">
+        <div class="container nav-flex">
 
             <div class="nav-flex">
-                <img src="./img/logo.svg" alt="logo discord">
+                <img class="logo" src="./img/logo.svg" alt="logo discord">
             </div>
-            <div class="link">
-                <span class="link">Scarica</span>
-                <span class="link">Perché Discord</span>
-                <span class="link">Nitro</span>
-                <span class="link">Sicurezza</span>
-                <span class="link">Assistenza</span>
+            <div class="links">
+                <a href="#">Scarica</a>
+                <a href="#">Perché Discord</a>
+                <a href="#">Nitro</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Assistenza</a>
             </div>
             <div>
                 <button class="accedi">Accedi</button>
@@ -43,11 +43,11 @@
 
             <div class="container-small">
                 <div>
-                    <h1 style="font-size:60px;padding-bottom: 30px;">Il tuo posto per parlare</h1>
+                    <h1 id="place">Il tuo posto per parlare</h1>
                 </div>
                 <br>
                 <div>
-                    <p style="font-size:23px;padding-bottom:10px">Che tu faccia parte di un club scolastico, gruppo di
+                    <p id="description-banner">Che tu faccia parte di un club scolastico, gruppo di
                         gamer, comunità
                         artistica mondiale, o
                         semplicemente di un piccolo gruppo di amici che vuole passare il tempo
@@ -71,11 +71,11 @@
                     <img src="./img/item1.svg" alt="frog">
                 </div>
                 <div class="square-2">
-                    <h1 style="font-size:50px">
+                    <h1 class="section-title">
                         Un luogo a invito con tutto lo spazio necessario per parlare
                     </h1>
                     <br>
-                    <p style="font-size:20px">I server Discord sono organizzati in canali tematici in cui puoi
+                    <p class="section-description">I server Discord sono organizzati in canali tematici in cui puoi
                         collaborare,condividere o
                         semplicemente parlare della tua giornata senza intasare una chat di gruppo</p>
 
@@ -94,11 +94,11 @@
                     <img src="./img/item2.svg" alt="magician">
                 </div>
                 <div class="square-2">
-                    <h1 style="font-size:50px">
+                    <h1 class="section-title">
                         Dove trovarsi è facile
                     </h1>
                     <br>
-                    <p style="font-size:20px">
+                    <p class="section-description">
                         Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
                         sei lì e unirsi istantaneamente senza dover chiamare.
                     </p>
@@ -116,11 +116,11 @@
                     <img src="./img/item3.svg" alt="alien">
                 </div>
                 <div class="square-2">
-                    <h1 style="font-size:50px">
+                    <h1 class="section-title">
                         Da pochi a un fandom
                     </h1>
                     <br>
-                    <p style="font-size:20px">
+                    <p class="section-description">
                         Dai inizio ad una community di qualsiasi dimensione con strumenti di moderazione e accesso ai
                         membri personalizzabile. Concedi ai menbri poteri speciali, crea canali privati, e molto altro.
                     </p>
@@ -131,9 +131,9 @@
 
         <section id="bunny">
             <div class="container-bg">
-                <h1 style="font-size:50px">Tecnologia affidabile per tenersi in contatto</h1>
+                <h1 class="section-title">Tecnologia affidabile per tenersi in contatto</h1>
                 <br>
-                <p style="font-size:20px">
+                <p class="section-description">
                     Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao
                     in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
                     condivisione schermo.
@@ -142,7 +142,7 @@
                 <img src="./img/item4-big.svg" alt="bunny">
                 <br>
                 <img src="./img/stars.svg" alt="stars">
-                <h2 style="font-size:30px">Pronto ad iniziare la tua avventura?</h2>
+                <h2 id="ready-start">Pronto ad iniziare la tua avventura?</h2>
                 <button id="scarica-2">&#x2193;Scarica per Mac</button>
             </div>
 
@@ -153,14 +153,14 @@
     <footer id="bonus">
         <div class="container-bonus b-flex">
             <div class="stretch-1">
-                <h1 style="font-size:50px;color:#687dc5">Il tuo posto per parlare</h1>
+                <h1 id="footer-title">Il tuo posto per parlare</h1>
 
-                <img style="width:10%;padding-top:30px;" src="./img/ita.png" alt="bandiera Italia">
+                <img class="bandiera-italiana" src="./img/ita.png" alt="bandiera Italia">
                 <span style="font-size:20px;color:white">Italiano &#8744;</span>
             </div>
 
             <div class="stretch-2">
-                <p style="color:#687dc5">Prodotto</p>
+                <p class="first-world-column-footer">Prodotto</p>
                 <br>
                 <p>Scarica</p>
                 <br>
@@ -173,7 +173,7 @@
                 <p>Assistenza</p>
             </div>
             <div class=" stretch-2">
-                <p style="color:#687dc5">Compagnia</p>
+                <p class="first-world-column-footer">Compagnia</p>
                 <br>
                 <p>Chi siamo</p>
                 <br>
@@ -187,7 +187,7 @@
 
             </div>
             <div class=" stretch-2">
-                <p style="color:#687dc5">Risorse</p>
+                <p class="first-world-column-footer">Risorse</p>
                 <br>
                 <p>Scarica</p>
                 <br>
@@ -214,7 +214,7 @@
 
             </div>
             <div class=" stretch-2">
-                <p style="color:#687dc5">Sicurezza</p>
+                <p class="first-world-column-footer">Sicurezza</p>
                 <br>
                 <p>Scarica</p>
                 <br>
@@ -232,7 +232,7 @@
             <hr>
             <div class="bonus-flex">
                 <div class="rectangle-1">
-                    <img src="./img/logo.svg" alt="logo discord">
+                    <img img class="logo" src="./img/logo.svg" alt="logo discord">
                 </div>
                 <div class="rectangle-2">
                     <button id="registrati">Registrati</button>
