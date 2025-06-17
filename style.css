@@ -220,7 +220,6 @@ body {
 
 .first-world-column-footer {
     color: #687dc5;
-    list-style-type: none;
 }
 
 #bonus {
@@ -292,6 +291,13 @@ body {
     width: 10%;
     padding-top: 30px;
 }
+
+
+.liste-footer {
+    list-style: none;
+}
+
+
 
 .onde {
 
