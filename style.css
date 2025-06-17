@@ -299,13 +299,16 @@ body {
 
 
 
-.onde {
+.wave {
 
+    height: 100px;
+    opacity: (0.04);
+    color: #f6f6f6;
 
-    width: 100%;
+}
 
-
-
+.upside-down {
+    transform: rotateX(0.5turn);
 }
 
 /*--section bonus--*/
