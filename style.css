@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -35,7 +36,7 @@ body {
 
 .links {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     font-size: 20px;
 }
 
@@ -219,6 +220,7 @@ body {
 
 .first-world-column-footer {
     color: #687dc5;
+    list-style-type: none;
 }
 
 #bonus {
@@ -260,6 +262,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: bold;
+
 
 }
 
